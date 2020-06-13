@@ -22,6 +22,7 @@ namespace DatingApp.API.Controllers
             _context = context;
         }
         // GET api/values
+        [AllowAnonymous] 
         [HttpGet]
         // here the IEnumerable use to retrieve set of things. In this case, they are strings.
         // public ActionResult<IEnumerable<string>> Get()
